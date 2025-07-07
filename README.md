@@ -27,7 +27,8 @@ The dataset contains the following:
 - **Pandas**, **NumPy** – Data manipulation
 - **Matplotlib**, **Seaborn** – Visualization
 - **Scikit-learn** – ML modeling and evaluation
-- **SVM**, **GridSearchCV** – Model training and tuning
+- **Support Vector Machine (SVM)** – Model training
+- **GridSearchCV** – Hyperparameter tuning
 
 ---
 
@@ -44,17 +45,17 @@ The dataset contains the following:
 - Visual analysis of survival patterns
 
 ### 3. Model Building
-- Trained multiple models, with **SVM** performing best
-- Hyperparameter tuning with **GridSearchCV**
-- Achieved **98% accuracy**
+- Trained multiple models, with **SVM** selected as best based on recall performance
+- Hyperparameter tuning using **GridSearchCV**
 
 ---
 
 ## 📈 Results
 
-- **Accuracy:** 98%
 - **Model Used:** Support Vector Machine (SVM)
-- **Evaluation Metrics:** Accuracy, Confusion Matrix, Classification Report
+- **Evaluation Metric Focus:** Recall
+  - **Recall for Living patients (Class 1):** 0.79
+  - **Recall for Deceased patients (Class 0):** 0.85
 
 ---
 
@@ -86,10 +87,6 @@ For a **Breast Cancer Survival Prediction** project, where patient lives are at 
 ## 🙋‍♂️ Author
 
 Mallikarjun  
-[LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/)
+[LinkedIn](https://www.linkedin.com/in/mallikarjunpatil4472) | [GitHub]([https://github.com/](https://github.com/Mallikarjun-B-Patil))
 
----
 
-## 📜 License
-
-This project is licensed under the MIT License.
