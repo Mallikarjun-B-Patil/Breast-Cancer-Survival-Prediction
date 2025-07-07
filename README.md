@@ -105,6 +105,6 @@ Clone the repository:
 ## 🙋‍♂️ Author
 
 Mallikarjun  
-[LinkedIn](https://www.linkedin.com/in/mallikarjunpatil4472) | [GitHub]([https://github.com/](https://github.com/Mallikarjun-B-Patil))
+[LinkedIn](https://www.linkedin.com/in/mallikarjunpatil4472) | [GitHub]([https://github.com/Mallikarjun-B-Patil])
 
 
