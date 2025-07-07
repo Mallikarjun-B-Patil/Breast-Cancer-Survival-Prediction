@@ -2,12 +2,16 @@
 
 This repository contains a Data Science Capstone Project focused on predicting the survival status (Living or Deceased) of breast cancer patients using machine learning techniques. The project includes data preprocessing, feature engineering, model training and tuning, and performance evaluation.
 
+---
+
 ## 📌 Project Objective
+
 To build a predictive model that determines whether a breast cancer patient is likely to survive, based on clinical and genetic information.
 
 ---
 
 ## 📊 Dataset Overview
+
 The dataset contains the following:
 - Patient demographics
 - Tumor characteristics
@@ -18,6 +22,7 @@ The dataset contains the following:
 ---
 
 ## ⚙️ Technologies Used
+
 - **Python**
 - **Pandas**, **NumPy** – Data manipulation
 - **Matplotlib**, **Seaborn** – Visualization
@@ -46,12 +51,45 @@ The dataset contains the following:
 ---
 
 ## 📈 Results
+
 - **Accuracy:** 98%
 - **Model Used:** Support Vector Machine (SVM)
 - **Evaluation Metrics:** Accuracy, Confusion Matrix, Classification Report
 
 ---
 
+## ✅ Inference
+
+In this project on **Breast Cancer Survival Prediction**, the **SVM model** emerged as the most effective for predicting patient survival. The focus on **recall for Living patients (class 1)** was crucial, as the primary objective in a medical context is to ensure that all **surviving patients** are accurately identified to provide them with the necessary care and treatment.
+
+While **false positives** (deceased patients misclassified as living) are important to minimize, **false negatives** (living patients misclassified as deceased) in cancer survival prediction can have severe consequences, such as **denying life-saving treatments**. Thus, high recall for class 1 ensures that **no living patients are overlooked** and receive the appropriate medical intervention.
+
+The **SVM model** was chosen due to its ability to establish an **optimal decision boundary**, which is crucial for distinguishing between **living** and **deceased** patients with minimal misclassification. Its performance in terms of recall for **Living patients** at **0.79** and **Deceased patients** at **0.85** shows that it effectively balances identifying patients in both classes, making it the most reliable model for this application.
+
+For a **Breast Cancer Survival Prediction** project, where patient lives are at stake, **SVM** is the ideal model due to its **strong recall performance for class 1 (Living)**. By ensuring accurate predictions for **surviving patients**, we enhance the likelihood that all those in need of care will receive the necessary treatment, thereby improving overall patient outcomes and safety.
+
+---
+
 ## 📁 Project Structure
 
 
+---
+
+## 📌 Future Work
+
+- Incorporate more advanced models (e.g., XGBoost, Neural Networks)
+- Use SHAP for model explainability
+- Build a Streamlit web app for interactive predictions
+
+---
+
+## 🙋‍♂️ Author
+
+Mallikarjun  
+[LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
