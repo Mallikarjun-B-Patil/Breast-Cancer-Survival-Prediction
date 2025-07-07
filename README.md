@@ -12,7 +12,7 @@ To build a predictive model that determines whether a breast cancer patient is l
 
 ## 📊 Visualizations
 
-### 🔹 Confusion Matrix
+### 🔹 Distribution Tree
 ![Distribution Tree](breast_cancer_tree.png)
 
 ### 🔹 Survival Status Distribution
@@ -93,6 +93,13 @@ For a **Breast Cancer Survival Prediction** project, where patient lives are at 
 - Use SHAP for model explainability
 - Build a Streamlit web app for interactive predictions
 
+---
+
+## 📌 How to Run
+Clone the repository:
+   ```bash
+   git clone https://github.com/Mallikarjun-B-Patil/Breast-Cancer-Survival-Prediction.git
+   ```
 ---
 
 ## 🙋‍♂️ Author
