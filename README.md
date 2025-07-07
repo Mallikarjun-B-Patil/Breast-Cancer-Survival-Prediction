@@ -10,8 +10,17 @@ To build a predictive model that determines whether a breast cancer patient is l
 
 ---
 
-## 📸 Visualization Snapshot
-![Breast Cancer Tree](breast_cancer_tree.png)
+## 📊 Visualizations
+
+### 🔹 Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
+### 🔹 Recall Scores by Class
+![Recall Scores](images/recall_scores.png)
+
+### 🔹 Survival Status Distribution
+![Survival Distribution](Kaplan_Meier_Survival_Curve.png)
+
 
 ---
 
