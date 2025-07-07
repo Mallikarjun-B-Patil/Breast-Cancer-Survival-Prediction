@@ -10,6 +10,11 @@ To build a predictive model that determines whether a breast cancer patient is l
 
 ---
 
+## 📸 Visualization Snapshot
+![Breast Cancer Tree](breast_cancer_tree.png)
+
+---
+
 ## 📊 Dataset Overview
 
 The dataset contains the following:
