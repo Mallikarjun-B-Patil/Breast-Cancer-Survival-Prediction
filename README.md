@@ -13,10 +13,10 @@ To build a predictive model that determines whether a breast cancer patient is l
 ## 📊 Visualizations
 
 ### 🔹 Distribution Tree
-![Distribution Tree](C:\BIA\12_CAPSTONE PROJECT\02_CAPSTONE PROJECT PRESENTATION/breast_cancer_tree.png)
+![Distribution Tree](breast_cancer_tree.png)
 
 ### 🔹 Survival Status Distribution
-![Survival Distribution](C:\BIA\12_CAPSTONE PROJECT\02_CAPSTONE PROJECT PRESENTATION/Kaplan_Meier_Survival_Curve.png)
+![Survival Distribution](Kaplan_Meier_Survival_Curve.png)
 
 
 ---
