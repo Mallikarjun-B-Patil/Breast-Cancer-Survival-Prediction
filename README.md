@@ -2,13 +2,11 @@
 
 This repository contains a Data Science Capstone Project focused on predicting the survival status (Living or Deceased) of breast cancer patients using machine learning techniques. The project includes data preprocessing, feature engineering, model training and tuning, and performance evaluation.
 
----
 
 ## 📌 Project Objective
 
 To build a predictive model that determines whether a breast cancer patient is likely to survive, based on clinical and genetic information.
 
----
 
 ## 📊 Visualizations
 
@@ -19,8 +17,6 @@ To build a predictive model that determines whether a breast cancer patient is l
 ![Survival Distribution](Kaplan_Meier_Survival_Curve.png)
 
 
----
-
 ## 📊 Dataset Overview
 
 The dataset contains the following:
@@ -30,7 +26,6 @@ The dataset contains the following:
 - Genetic markers
 - Survival status (Target variable: `0` = Deceased, `1` = Living)
 
----
 
 ## ⚙️ Technologies Used
 
@@ -41,7 +36,6 @@ The dataset contains the following:
 - **Support Vector Machine (SVM)** – Model training
 - **GridSearchCV** – Hyperparameter tuning
 
----
 
 ## 🔍 Project Workflow
 
@@ -59,7 +53,6 @@ The dataset contains the following:
 - Trained multiple models, with **SVM** selected as best based on recall performance
 - Hyperparameter tuning using **GridSearchCV**
 
----
 
 ## 📈 Results
 
@@ -68,7 +61,6 @@ The dataset contains the following:
   - **Recall for Living patients (Class 1):** 0.79
   - **Recall for Deceased patients (Class 0):** 0.85
 
----
 
 ## ✅ Inference
 
@@ -80,12 +72,6 @@ The **SVM model** was chosen due to its ability to establish an **optimal decisi
 
 For a **Breast Cancer Survival Prediction** project, where patient lives are at stake, **SVM** is the ideal model due to its **strong recall performance for class 1 (Living)**. By ensuring accurate predictions for **surviving patients**, we enhance the likelihood that all those in need of care will receive the necessary treatment, thereby improving overall patient outcomes and safety.
 
----
-
-## 📁 Project Structure
-
-
----
 
 ## 📌 Future Work
 
@@ -93,14 +79,12 @@ For a **Breast Cancer Survival Prediction** project, where patient lives are at 
 - Use SHAP for model explainability
 - Build a Streamlit web app for interactive predictions
 
----
 
 ## 📌 How to Run
 Clone the repository:
    ```bash
    git clone https://github.com/Mallikarjun-B-Patil/Breast-Cancer-Survival-Prediction.git
    ```
----
 
 ## 🙋‍♂️ Author
 
